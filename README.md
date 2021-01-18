@@ -7,6 +7,9 @@ I am currently working on putting all leetcode solutions in one place for people
 
 ## Input Example:
 ```
+from helper import rprint
+from typing import Any, Dict, Iterable, List, Optional, Union
+
 nums1 = [1,2,3,1,1,3]
 nums2 = [1,1,1,1]
 nums3 = [1,2,3]
@@ -28,7 +31,7 @@ class Solution:
 rprint(Solution().numIdenticalPairs, nums_lst)
 ```
 
-## Result Examples:
+## Result Example:
 ```
 _____                           _        _
 | ____|_  ____ _ _ __ ___  _ __ | | ___  / |_
@@ -65,4 +68,4 @@ The Output dataset is: 0
 ```
 
 ## Pull Request:
-Feel free to PR unsolved questions
+Feel free to PR unsolved questions or better solutions
