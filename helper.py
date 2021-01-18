@@ -13,7 +13,7 @@ def rprint(func, lst, outputs=[]):
         if outputs == []:
             print("The Output dataset is: {}.".format(result))
         else:
-            print("The Output dataset is: {} and the correct answer is {}.".format(result, outputs[index]))
+            print("The Output dataset is: {} and the correct answer is also {}.".format(result, outputs[index]))
             assert result == outputs[index], "The results do not match"
         print("********************************")
 
@@ -26,7 +26,6 @@ def rprint2(func, lst1, lst2, outputs=[]):
         if outputs == []:
             print("The Output dataset is: {}.".format(result))
         else:
-            print("The Output dataset is: {} and the correct answer is {}.".format(result, outputs[index]))
+            print("The Output dataset is: {} and the correct answer is also {}.".format(result, outputs[index]))
             assert result == outputs[index], "The results do not match"
         print("********************************")
-
