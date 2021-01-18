@@ -1,7 +1,9 @@
 # Leetcode: way 2 master
 
+[![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-370/) [![Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
+
 ## leetcode solutions:
-I am currently working on putting all leetcode solution in one place for people to use. I leveraged `termcolor` and `pyfiglet` to create clear separation for all the test examples and results. Please see input example and expected output below.
+I am currently working on putting all leetcode solutions in one place for people to use. I leveraged `termcolor` and `pyfiglet` to create clear separation for all the test examples and results. Please see input example and expected output below.
 
 ## Input Example:
 ```
@@ -63,4 +65,4 @@ The Output dataset is: 0
 ```
 
 ## Pull Request:
-Feel free to PR unsolved or haven't solved solutions
+Feel free to PR unsolved questions
