@@ -9,3 +9,15 @@ class Solution:
             result.append(max)
         result.append(-1)
         return result
+
+# Alt
+class Solution:
+    def replaceElements(self, arr: List[int]) -> List[int]:
+        max = arr[-1]
+        result = arr.copy()
+        result[-1] = -1
+        for i in range(len(arr)-2, -1, -1):
+            result[i] = max
+            if arr[i]>max:
+                max = arr[i]
+        return result
